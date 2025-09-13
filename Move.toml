@@ -1,0 +1,15 @@
+[package]
+name = "Token-whitelist-system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x03e31622394008c053fc354478f44bac69f24dd75cc49a499020d9a75aa4192b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
